@@ -29,5 +29,22 @@ code {
   background-size: 55rem 50rem;
   background-position: center right;
   width: 110%;
-  overflow: none;
+  overflow: hidden;
+}
+
+.bg-svg3{
+  background: url('./assets/images/bg-pattern-circles.svg'), linear-gradient(to left, #1f3f5b 0%, #25252d 100%);
+  background-repeat: no-repeat;
+  background-size: 70rem 60rem, cover;
+  background-position: bottom left, center center;
+}
+
+.bg-svg4{
+  background: url('./assets/images/illustration-laptop-desktop.svg'); 
+  background-repeat: no-repeat;
+  background-size: 70rem 60rem;
+  background-position: center left;
+  width: 110%;
+  overflow: hidden;
+  margin-left: -20rem;
 }
