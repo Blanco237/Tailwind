@@ -21,7 +21,7 @@ const SectionFour = () => {
     ]
 
   return (
-    <section className="px-14 py-12 bg-svg4 min-h-[800px] mt-[8rem]">
+    <section className="px-14 py-12 bg-svg4 min-h-[800px] mt-[12rem] mb-20">
         <div className="content flex flex-row justify-end gap-72 items-center mt-[2rem]">
           <section className="w-[50%] flex flex-col gap-24 px-32 py-7 mr-[-10rem]">
             {data.map((item, index) => (
