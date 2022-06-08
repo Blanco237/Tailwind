@@ -21,9 +21,16 @@ module.exports = {
         'grad-dark-blue': '#00d8d8',
       },
     },
+    // screens: {
+    //   'mobile': '375px',
+    //   'desktop': '1024px'
+    // },
     screens: {
-      'mobile': '375px',
-      'desktop': '1024px'
+      sm: '640px',
+      md: '1280px',
+      lg: '1024px',
+      xl: '768px',
+      '2xl': '640px',
     },
   },
   plugins: [],
