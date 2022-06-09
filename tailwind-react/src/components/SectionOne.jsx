@@ -6,7 +6,7 @@ const SectionOne = () => {
         
   <h1 className='md:text-[80px] md:font-semibold text-[60px] text-center font-medium '>A modern publishing platform</h1>
   <p className='text-3xl font-thin '>Grow your audience and build your online brand</p>
-    <div className='flex flex-row gap-4 text-2xl md:mt-12 mt-20'>
+    <div className='flex flex-row gap-4 md:text-2xl text-xl md:mt-12 mt-20'>
         <button className='rounded-full px-5 py-2 transition duration-300 ease-linear bg-white text-light-red font-semibold hover:bg-light-red hover:text-white'>Start for Free</button>
         <button className='rounded-full px-5 py-2 transition duration-300 ease-linear  text-white border-2 border-white font-semibold hover:bg-white hover:text-light-red'>Learn More</button>
     </div>
