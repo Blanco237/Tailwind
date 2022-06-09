@@ -3,12 +3,6 @@ import React from 'react'
 import Article from '../partials/Article';
 
 const SectionFour = () => {
-    
-  
-
-  
-  
-
     const data = [
         {
             title: 'Free, open, simple',
@@ -21,9 +15,11 @@ const SectionFour = () => {
     ]
 
   return (
-    <section className="px-14 py-12 bg-svg4 min-h-[800px] mt-[12rem] mb-20">
-        <div className="content flex flex-row justify-end gap-72 items-center mt-[2rem]">
-          <section className="w-[50%] flex flex-col gap-24 px-32 py-7 mr-[-10rem]">
+    <section className="px-14 py-12 bg-svg4 min-h-[800px] md:mt-[12rem] mb-20">
+        <div className="content flex md:flex-row flex-col justify-center gap-72 items-center mt-[2rem] mr-[-10rem] md:mr-0 px-24 md:px-0">
+          <section className="md:w-[50%] w-full flex flex-col gap-24 py-7 mr-[-10rem] text-center md:text-left ml-5 px-32 justify-center items-center
+          mt-[15rem] md:mt-0
+          ">
             {data.map((item, index) => (
                 <Article key={index} title={item.title} body={item.body} color='gray-dark' />
             ))}
