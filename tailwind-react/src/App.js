@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className='bg-gray-100 overflow-x-hidden'>
+    <div className='md:bg-gray-100 bg-white overflow-x-hidden'>
     <Header />
     <SectionOne />
     <SectionTwo />

@@ -24,6 +24,41 @@ code {
 }
 
 .bg-svg2{
+  background: url('./assets/images/illustration-editor-mobile.svg'); 
+  background-repeat: no-repeat;
+  background-size: 29rem 24rem;
+  background-position: -7% 12%;
+  width: 110%;
+  overflow: hidden;
+}
+
+.bg-svg3{
+  background: url('./assets/images/bg-pattern-circles.svg'), linear-gradient(to left, #1f3f5b 0%, #25252d 100%);
+  background-repeat: no-repeat;
+  background-size: 50rem 45rem, cover;
+  background-position: 55% 370%, center center;
+}
+
+.bg-svg4{
+  background: url('./assets/images/illustration-laptop-mobile.svg'); 
+  background-repeat: no-repeat;
+  background-size: 37rem 26rem;
+  background-position: 140% -10%;
+  /*width: 110%;*/
+  overflow: hidden;
+  margin-left: -20rem;
+  margin-top: 7rem;
+}
+
+@media (min-width: 1280px) {
+  .bg-svg{
+  background: url('./assets/images/bg-pattern-intro-desktop.svg'), linear-gradient(to left, #ff3d54 0%, #ff8f70 100%);
+  background-repeat: no-repeat;
+  background-size: 220rem 200rem, cover;
+  background-position: center center, center center;
+}
+
+.bg-svg2{
   background: url('./assets/images/illustration-editor-desktop.svg'); 
   background-repeat: no-repeat;
   background-size: 55rem 50rem;
@@ -47,4 +82,5 @@ code {
   width: 110%;
   overflow: hidden;
   margin-left: -20rem;
+}
 }
