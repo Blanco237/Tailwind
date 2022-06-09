@@ -17,9 +17,9 @@ const SectionTwo = () => {
   return (
     <section className="px-14 py-12 bg-svg2 min-h-[800px]">
       <div className="flex flex-col gap-4 justify-center items-center">
-        <h2 className="text-gray-dark text-5xl font-medium">Designed for the future</h2>
+        <h2 className="text-gray-dark md:text-5xl text-[2rem] font-medium text-center">Designed for the future</h2>
         <div className="content flex flex-row justify-start items-center mt-[2rem]">
-          <section className="w-[50%] flex flex-col gap-24 px-32 py-7">
+          <section className="md:w-[50%] w-full flex flex-col gap-24 md:px-32 py-7 px-4 mt-96 md:mt-0 text-center md:text-left">
             {data.map((item, index) => (
                 <Article key={index} title={item.title} body={item.body} color='gray-dark' />
             ))}
